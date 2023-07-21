@@ -9,7 +9,8 @@ export default function HomeScreen(props) {
     }
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Proyecto final</Text>
+      <Text>Comienza a calcular</Text>
       <Button onPress={goToCalculator} title="Ir a calculadora"></Button>
     </View>
   );
