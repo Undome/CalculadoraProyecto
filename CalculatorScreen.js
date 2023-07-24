@@ -42,7 +42,7 @@ export default function App() {
         break;
     }
     setResult(res.toString());
-    setNum1('');
+    setNum1(res);
     setNum2('');
     setOperator('');
     setCalculation(num1 + operator + num2 + '=' + res.toString());
