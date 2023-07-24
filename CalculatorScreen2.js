@@ -58,12 +58,11 @@ export default function App() {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#22252D',
+      backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
     },
     monitor: {
-      flex: 2,
       width: '100%',
       height: 150,
       backgroundColor: '#444',
@@ -78,7 +77,6 @@ export default function App() {
     },
     row: {
       flexDirection: 'row',
-      flex: 1,
     },
     button: {
       flex: 1,
@@ -87,7 +85,6 @@ export default function App() {
       justifyContent: 'center',
       borderWidth: 1,
       borderColor: '#ccc',
-      borderRadius: 10,
     },
     buttonText: {
       fontSize: 30,

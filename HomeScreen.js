@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Button, Image } from 'react-native';
 
 export default function HomeScreen(props) {
     const {navigation} = props;
@@ -9,6 +9,7 @@ export default function HomeScreen(props) {
     }
   return (
     <View style={styles.container}>
+      <Image source = {require ('./assets/Tecmil.png')} />
       <Text>Proyecto final</Text>
       <Text>Comienza a calcular</Text>
       <Button onPress={goToCalculator} title="Ir a calculadora"></Button>
@@ -19,7 +20,7 @@ export default function HomeScreen(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#22252D',
     alignItems: 'center',
     justifyContent: 'center',
   },
